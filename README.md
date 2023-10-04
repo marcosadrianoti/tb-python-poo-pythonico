@@ -33,13 +33,13 @@ cd meu-diretorio
 Clone o projeto com o comando `git clone`:
 
 ```bash
-git clone git@github.com:marcosadrianoti/tb-python-spotnews.git
+git clone https://github.com/marcosadrianoti/tb-python-poo-pythonico
 ```
 
 Acesse o diretório do projeto com o comando `cd`:
 
 ```bash
-cd tb-python-spotnews
+cd tb-python-poo-pythonico
 ```
 
 crie o ambiente virtual:
@@ -57,10 +57,9 @@ Instale as dependências no ambiente virtual:
 python3 -m pip install -r dev-requirements.txt
 ```
 
-Para rodar o MySQL via Docker execute os seguintes comandos na raiz do projeto:
+Execute os testes:
 ```bash
-docker build -t spotnews-db .
-docker run -d -p 3306:3306 --name=spotnews-mysql-container -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=spotnews_database spotnews-db
+python3 -m pytest
 ```
 
 Rode a aplicação e acesse [http://127.0.0.1:8000/](http://127.0.0.1:8000/):
