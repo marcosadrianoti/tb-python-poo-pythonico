@@ -4,26 +4,21 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
 <details>
 <summary><strong>Objetivos do projeto:</strong></summary>
  
-  * Desenvolver uma aplicação que armazena notícias que podem ser categorizadas por um usuário cadastrado.
+  * Criar um programa que simula uma loja virtual elaborando códigos que façam o uso de tipagem estática em Python.
   * Verificar se sou capaz de:
-    * Escrever aplicações usando Django e Django Rest Framework.
-    * Desenvolver uma aplicação que usa a arquitetura Model-View-Template.
-    * Trabalhar com banco de dados MYSQL.
+    * Elaborar códigos que façam o uso de tipagem estática em Python.
+    * Elaborar códigos utilizando a linguagem Python que utilizam Classes, Construtores, Instâncias, Atributos e Métodos.
+    * Examinar um projeto em Python que utiliza o paradigma de Programação Orientada a Objetos.
+    * Escrever código Python que passa em testes de integração.
 </details>
 <details>
 <summary><strong> Requisitos do projeto:</strong></summary>
 
-  * Criar a migrate e o model `Categories`.
-  * Criar a migrate e o model `Users`.
-  * Criar a migrate e o model `News`.
-  * Criar a página Inicial.
-  * Criar a página de detalhes de uma Notícia.
-  * Criar a página de Formulário de uma nova Categoria.
-  * Criar a página de Formulário de uma nova Notícia.
-  * Criar a rota `/api/categories/` com o DRF.
-  * Criar a rota `/api/users/` com o DRF.
-  * Requisito Bônus:
-    * Criar a rota `/api/news/` com o DRF.
+  * Desenvolver a classe Produto.
+  * Desenvolver a classe Estoque.
+  * Testar o construtor/inicializador da classe Livro.
+  * Testar a descrição do Livro.
+
 </details>
   
 ## Rodando o projeto localmente
